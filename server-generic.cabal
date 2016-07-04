@@ -14,7 +14,12 @@ maintainer:          Gabriel439@gmail.com
 copyright:           2016 Gabriel Gonzalez
 category:            Web
 build-type:          Simple
+tested-with:         GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.2, GHC == 8.0.1
 cabal-version:       >=1.10
+
+source-repository head
+    Type: git
+    Location: https://github.com/Gabriel439/Haskell-Server-Generic-Library
 
 library
   hs-source-dirs:      src
@@ -28,4 +33,5 @@ library
                      , text       >= 0.11.0.6 && < 1.3
                      , wai        >= 0.4.0    && < 3.3
                      , warp                      < 3.3
+                     , void                      < 0.8
   ghc-options:         -Wall
