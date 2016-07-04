@@ -20,12 +20,12 @@ library
   hs-source-dirs:      src
   exposed-modules:     Server.Generic
   default-language:    Haskell2010
-  build-depends:       base >= 4.6 && < 5
-                     , aeson
-                     , bytestring
-                     , http-types
-                     , mtl
-                     , text
-                     , wai
-                     , warp
+  build-depends:       base       >= 4.6      && < 5
+                     , aeson                     < 0.12
+                     , bytestring >= 0.10.0.0 && < 0.11
+                     , http-types >= 0.7.0    && < 0.10
+                     , mtl                       < 2.3
+                     , text       >= 0.11.0.6 && < 1.3
+                     , wai        >= 0.4.0    && < 3.3
+                     , warp                      < 3.3
   ghc-options:         -Wall
