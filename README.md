@@ -82,7 +82,7 @@ This library tries to be as intelligent as possible:
 * Every constructor generates an API endpoint of the same name (lowercased)
 * The `Maybe` type constructor translates to an optional token/parameter
 * The `[]` type constructor translates to a repeated token/parameter
-* `Any`/`All`/`First/`Last`/`Sum`/`Product` also translate to repeated
+* `Any`/`All`/`First`/`Last`/`Sum`/`Product` also translate to repeated
   tokens/parameters, but with different behaviors (i.e. `First` will return the
   first token/parameter that matches and `Sum` will sum them all)
 
