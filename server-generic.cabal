@@ -6,12 +6,12 @@ description:         This library auto-generates a REST API from any datatype
                      .
                      See the documentation in "Server.Generic" for an example of
                      how to use this library
-homepage:            https://github.com/Gabriel439/Haskell-Server-Generic-Library
+homepage:            https://github.com/Gabriella439/Haskell-Server-Generic-Library
 license:             BSD3
 license-file:        LICENSE
-author:              Gabriel Gonzalez
-maintainer:          Gabriel439@gmail.com
-copyright:           2016 Gabriel Gonzalez
+author:              Gabriella Gonzalez
+maintainer:          GenuineGabriella@gmail.com
+copyright:           2016 Gabriella Gonzalez
 category:            Web
 build-type:          Simple
 tested-with:         GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.2, GHC == 8.0.1
@@ -19,7 +19,7 @@ cabal-version:       >=1.10
 
 source-repository head
     Type: git
-    Location: https://github.com/Gabriel439/Haskell-Server-Generic-Library
+    Location: https://github.com/Gabriella439/Haskell-Server-Generic-Library
 
 library
   hs-source-dirs:      src
